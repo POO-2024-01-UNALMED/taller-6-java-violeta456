@@ -48,6 +48,9 @@ public class Vehiculo {
 	public static int getCantidadVehiculos() {
 		return CantidadVehiculos;
 	}
+	public static void setCantidadVehiculos(int CantidadVehiculos) {
+		Vehiculo.CantidadVehiculos=CantidadVehiculos;
+	}
 	
 	public String getPlaca() {
 		return this.placa;
